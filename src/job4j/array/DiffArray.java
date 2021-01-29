@@ -1,17 +1,18 @@
 package job4j.array;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class DiffArray {
 	
 	public static int[] diff(int[] left, int[] right) {
-		if (left == null && right == null) {
+		if (Arrays.equals(left, new int[]{}) && Arrays.equals(right, new int[]{})) {
 			return new int[]{};
 		}
-		if (left == null) {
+		if (Arrays.equals(left, new int[]{})) {
 			return right;
 		}
-		if (right == null) {
+		if (Arrays.equals(right, new int[]{})) {
 			return left;
 		}
 		ArrayList<Integer> rsl = new ArrayList<>();
