@@ -1,9 +1,10 @@
 package job4j.array;
 
 public class CheckSquareArray {
+	
 	public static boolean checkArray(int[][] array) {
-		boolean rsl = true;
-        int standard = array.length;
+		boolean rsl      = true;
+		int     standard = array.length;
 		for (int[] ints : array) {
 			if (ints.length != standard) {
 				rsl = false;
