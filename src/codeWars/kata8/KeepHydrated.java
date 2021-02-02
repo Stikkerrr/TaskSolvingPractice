@@ -2,8 +2,8 @@ package codeWars.kata8;
 
 public class KeepHydrated {
 	
-	public int Liters(double time)  {
-		return (int)Math.floor(time*0.5);
+	public int Liters(double time) {
+		return (int) Math.floor(time * 0.5);
 	}
 }
 
