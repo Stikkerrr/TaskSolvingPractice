@@ -1,4 +1,4 @@
-const eod = require('../../kata8/evenorodd.js');
+const eod = require('../../eighthkyu/evenorodd.js');
 
 test('2 is even', () => {
     expect(eod(2)).toBe('Even');
